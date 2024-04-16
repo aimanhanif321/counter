@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#counter{
+    display: block;
+    font-family: Helvetica ;
+    font-size: 20em;
+    text-align: center;
+
+}
+#btn-container{
+    text-align: center;
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background:rgb(131, 131, 243);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.25s;
+}
+.btn:hover{
+    background-color: rgb(78, 78, 249);
+}
+
